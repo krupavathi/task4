@@ -1,5 +1,7 @@
 import React from 'react';
-import Operation from './Components/Operation/Operation';
+// import Operation from './Components/Operation/Operation';
+import ColoredBlock from './Task5/ColoredBlock';
+
 
 
 
@@ -7,7 +9,8 @@ function App() {
   return (
     <div className="App">
     
-    <Operation/>
+    <ColoredBlock/>
+    {/* <Operation/> */}
     </div>
   );
 }

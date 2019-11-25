@@ -26,11 +26,11 @@ class Operation extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.subtraction}>sub</button>
+        <button onClick={this.subtraction}>subtraction</button>
         <div>{this.state.s1}</div>
-        <button onClick={this.addition}>add</button>
+        <button onClick={this.addition}>addition</button>
         <div>{this.state.a1}</div>
-        <button onClick={this.multiplication}>mul</button>
+        <button onClick={this.multiplication}>multiplication</button>
         <div>{this.state.m1}</div>
       </div>
     );
